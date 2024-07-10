@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    background: linear-gradient(180deg, #012B30 15.93%, #001113 22.51%, #012B30 43.98%, #001113 68.01%, #012B30 100%);
+}
+
+.active {
+	position: relative;
+	color: #ffffff;
+}
+
+.active::before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	background: rgba(255, 255, 255, 0.2);
+	filter: blur(10px);
+	z-index: -1;
+}
+
+.snitch-about {
+	top: 90%;
+	left: 9%;
+	transform: translate(-50%, -50%);
+}
+
+.snitch-prize {
+	top: 90%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.snitch-timeline {
+	top: 90%;
+	left: 54%;
+	transform: translate(-50%, -50%);
+}
+
+.snitch-contact {
+	top: 90%;
+	left: 82%;
+	transform: translate(-50%, -50%);
+}
