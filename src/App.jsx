@@ -12,12 +12,12 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="h-lvh section" id="about"><Landing  /></div>
-      <div className="h-lvh section" id="about"><About  /></div>
-      <div className="h-lvh section" id="timeline"><Timeline /></div>
-      <div className="h-svh section" id="prize"><Prize  /></div>
-      <div className="h-svh section" id=""><Sponsors  /></div>
-      <div className="h-svh section" id="contact"><Footer  /></div>
+      <div className="section" id="about"><Landing  /></div>
+      <div className="section" id="about"><About  /></div>
+      <div className="section" id="timeline"><Timeline /></div>
+      <div className="section" id="prize"><Prize  /></div>
+      <div className="section" id=""><Sponsors  /></div>
+      <div className="section" id="contact"><Footer  /></div>
     </div> 
   );
 };
