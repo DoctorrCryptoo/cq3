@@ -9,7 +9,7 @@ const Navbar = () => {
 		let currentSection = "";
 		sections.forEach((section) => {
 			const sectionTop = section.offsetTop;
-			if (window.scrollY >= sectionTop - 50) {
+			if (window.scrollY >= sectionTop -100) {
 				currentSection = section.getAttribute("id");
 			}
 		});
@@ -17,6 +17,7 @@ const Navbar = () => {
 	};
 
 	useEffect(() => {
+		handleScroll()
 		window.addEventListener("scroll", handleScroll);
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
