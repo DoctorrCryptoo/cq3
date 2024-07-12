@@ -2,234 +2,212 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background: linear-gradient(180deg, #012B30 15.93%, #001113 22.51%, #012B30 43.98%, #001113 68.01%, #012B30 100%);
+body {
+  background: linear-gradient(
+    180deg,
+    #012b30 15.93%,
+    #001113 22.51%,
+    #012b30 43.98%,
+    #001113 68.01%,
+    #012b30 100%
+  );
 }
 
-.timelinetrain{
-    mix-blend-mode: luminosity;
-    position: absolute;
-    top: 800px;
-    height: 700px;
-    width: 1000px;
-    left: 460px;
+.timelinetrain {
+  mix-blend-mode: luminosity;
+  position: absolute;
+  top: 800px;
+  height: 700px;
+  width: 1000px;
+  left: 460px;
 }
-.Fire{
-    opacity: 0.22;
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    top: 1470px;
-    left: 430px;
-    filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0.72));
-    
+.Fire {
+  opacity: 0.22;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 1470px;
+  left: 430px;
+  filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0.72));
 }
-@media screen and  (min-width: 768px) {
-    .Fire {
-        left: 290px;
-        top: 2050px;
-        width: 300px;
-        height: 300px;
-    }
+@media screen and (min-width: 768px) {
+  .Fire {
+    left: 290px;
+    top: 2050px;
+    width: 300px;
+    height: 300px;
+  }
 }
 
-@media screen and  (min-width: 768px) {
-    .timelinetrain {
-        left: 250px;
-        top: 1200px;
-    }
-    }
-=======
+@media screen and (min-width: 768px) {
+  .timelinetrain {
+    left: 250px;
+    top: 1200px;
+  }
+}
+
 .active {
-	position: relative;
-	color: #ffffff;
+  position: relative;
+  color: #ffffff;
 }
 
 .active::before {
-	content: "";
-	position: absolute;
-	top: -10px;
-	left: 0;
-	right: 0;
-	bottom: -10px;
-	background: rgba(255, 255, 255, 0.2);
-	filter: blur(10px);
-	z-index: -1;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  background: rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+  z-index: -1;
 }
 
 .snitch-about {
-	top: 90%;
-	left: 9%;
-	transform: translate(-50%, -50%);
+  top: 90%;
+  left: 9%;
+  transform: translate(-50%, -50%);
 }
 
 .snitch-prize {
-	top: 90%;
-	left: 30%;
-	transform: translate(-50%, -50%);
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
 .snitch-timeline {
-	top: 90%;
-	left: 54%;
-	transform: translate(-50%, -50%);
+  top: 90%;
+  left: 54%;
+  transform: translate(-50%, -50%);
 }
 
 .snitch-contact {
-	top: 90%;
-	left: 82%;
-	transform: translate(-50%, -50%);
+  top: 90%;
+  left: 82%;
+  transform: translate(-50%, -50%);
 }
 
 /* FOR FOOTER */
 
-
 /*(#footer .mainimg {
-	
+
 	height: 10vh;
 	background-repeat: no-repeat;
-	padding:   5px; 
+	padding:   5px;
   }
   */
-  #footer body{
-	padding: auto;
-	 
-  }
-  
-  
-  #footer .mainimg  {
-	width: 100%;
-	position:relative;
-	height: 100%;
-	padding: none;
-	
 
+#footer body {
+  padding: auto;
+}
 
+#footer .mainimg {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  padding: none;
+}
 
+#footer .hagrid,
+#footer .albus,
+#footer .social,
+#footer .register,
+#footer .mainname {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  padding-left: 20px;
+  height: 20%;
+}
 
-	
-	
-  }
-  
-  #footer .hagrid, 
-  #footer .albus, 
-  #footer .social, 
-  #footer .register,
-  #footer .mainname
-   {
-	position: absolute;
-	top: 20%; 
-	transform: translateY(-50%);
-	padding-left: 20px;
-	height:20%;
-  }
-  
-  #footer .hagrid {
-	left: 0%; 
-	z-index: 1;
-	top: 12%;
-	width: auto;
-	
-	
-  }
-  
-	
-  
- 
+#footer .hagrid {
+  left: 0%;
+  z-index: 1;
+  top: 12%;
+  width: auto;
+}
 
+#footer .albus {
+  left: 5%;
+  top: 2%;
+  z-index: 4;
+}
+#footer .mainname {
+  left: 10%;
+  top: 30%;
+}
+
+#footer .social {
+  right: 40%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  top: 80%;
+  color: #ffffff;
+}
+
+#footer .register {
+  right: 15%;
+  top: 90%;
+}
+@media (max-width: 768px) {
+  #footer .hagrid,
   #footer .albus {
-	left: 5%;
-	top: 2%;
-	z-index: 4;
-  
+    display: none;
   }
-  #footer .mainname {
-	left: 10%; 
-	top: 30%;
-  }
-  
-  #footer .social {
-	right: 40%;
-	width: 20%;
-	justify-content: center;
-	align-items: center; 
-	top: 80%; 
-	color: #ffffff;
-  }
-  
+
+  #footer .mainname,
+  #footer .social,
   #footer .register {
-	right: 15%; 
-	top: 90%; 
+    top: auto;
+    transform: none;
+    padding-left: 10px;
+    height: auto;
+    width: 2%;
+    left: 10;
   }
-  @media (max-width: 768px) {
-    
 
+  #footer .mainname {
+    top: 10%;
+    left: 5%;
+    width: 90%;
+  }
 
-	
-	#footer .hagrid, 
-    #footer .albus {
-        display: none;
-    }
+  #footer .social {
+    top: 85%;
+    right: 15%;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
 
-    #footer .mainname, 
-    #footer .social, 
-    #footer .register {
-        top: auto;
-        transform: none;
-        padding-left: 10px;
-        height: auto;
-        width: 2%;
-        left: 10;
-    }
+  #footer .register {
+    top: 65%;
+    right: 45%;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 10%;
+  }
+  #footer .register:hover {
+    background-color: rgb(37, 90, 76);
+    border: #012b30;
+  }
+  nav ul {
+    flex-direction: row;
+    text-align: center;
+    width: 30%;
+  }
 
-    #footer .mainname {
-        top: 10%;
-        left: 5%;
-        width: 90%;
-    }
-
-    #footer .social {
-        top: 85%;
-        right: 15%;
-		align-items: center;
-		justify-content: center;
-        width: 70%;
-		
-    }
-
-    #footer .register {
-        top: 65%;
-        right: 45%;
-		align-items: center;
-		justify-content: center;
-		height: 20px;
-        width: 10%;
-    }
-	#footer .register:hover{
-		background-color: rgb(37, 90, 76);
-		border: #012B30;
-	}
-	nav ul {
-		flex-direction: row;
-		text-align:center;
-		width: 30%;
-		
-	  }
-  
-	  nav ul li {
-		margin-bottom: 1rem;
-		font-size: medium;
-		
-	  }
-	  
-	  
-	  }
-    #footer .mainimg {
-		background-image: url('./img/Group\ 48.png');
-		position: relative; 
-        height: 100%; 
-        object-fit:fill;
-		width: 100%;
-		
-    }
-
+  nav ul li {
+    margin-bottom: 1rem;
+    font-size: medium;
+  }
+}
+#footer .mainimg {
+  background-image: url("./img/Group\ 48.png");
+  position: relative;
+  height: 100%;
+  object-fit: fill;
+  width: 100%;
+}
