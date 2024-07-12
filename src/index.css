@@ -2,11 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body{
     background: linear-gradient(180deg, #012B30 15.93%, #001113 22.51%, #012B30 43.98%, #001113 68.01%, #012B30 100%);
 }
 
+.timelinetrain{
+    mix-blend-mode: luminosity;
+    position: absolute;
+    top: 800px;
+    height: 700px;
+    width: 1000px;
+    left: 460px;
+}
+.Fire{
+    opacity: 0.22;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1470px;
+    left: 430px;
+    filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0.72));
+    
+}
+@media screen and  (min-width: 768px) {
+    .Fire {
+        left: 290px;
+        top: 2050px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and  (min-width: 768px) {
+    .timelinetrain {
+        left: 250px;
+        top: 1200px;
+    }
+    }
+=======
 .active {
 	position: relative;
 	color: #ffffff;
