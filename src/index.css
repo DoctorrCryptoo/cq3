@@ -25,6 +25,14 @@ body {
   width: 1000px;
   left: 460px;
 }
+
+.landing{
+  background-image: url('assets\\Images\\Landingbg.png');
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+
+}
 .Fire {
   opacity: 0.22;
   height: 200px;
