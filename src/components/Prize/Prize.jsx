@@ -1,29 +1,15 @@
 import prize from '../../assets/Images/Prize Pool.png';
-import Vector1 from '../../assets/Images/Vector1.png';
-import Vector2 from '../../assets/Images/Vector2.png';
 import Cup from '../../assets/Images/Prize.png';
 import Fire from '../../assets/Images/Fire.png';
 import Page from '../../assets/Images/Page.png';
 import CL from '../../assets/Images/Group 32.png';
 const Prize = () => {
-  return <div>
-        <img src={Vector1} className='absolute top-[1500px] left-[1000px] md:top-[2100px] md:left-[815px] md:w-[700px]' />
-    <div>
-    <img src={prize} className='h-[60px] absolute top-[1600px] mx-[1000px] md:h-[100px] md:top-[2200px] md:mx-[1000px]' />
-    </div>
-    <div>
-      <img src={Cup} className='absolute h-[600px] w-[400px] mx-[400px] top-[1450px] z-10 md:w-[600px] md:h-[800px] md:top-[2050px] md:mx-[200px]' />
-    </div>
-    <div>
-      <img src={Fire} className='Fire' />
-    </div>
-    <div>
-      <img src={CL} className='' />
-    </div>
-    <div>
-      <img src={Page} className='absolute h-[100px] mx-[1000px] my-[30px] md:h-[200px] md:mx-[1050px] md:my-[100px]' />
-    </div> 
-    <img src={Vector2} className='absolute left-0 top-[2300px] md:w-[700px] md:my-[720px]' />
-    </div>;
+  return <div className='min-h-screen min-w-screen max-h-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between p-4 md:p-0'>
+    <img src={Cup} className='h-[160px] md:h-[600px]' />
+    <img src={Fire} className='h-[80px] md:h-[200px] opacity-20 w-[200px] filter: drop-shadow(25px 4px 4px rgba(0, 0, 0, 0.72)) ' />
+    <img src={CL} className='h-[60px] md:h-[400px]' />
+    <img src={prize} className='h-[100px] md:h-[200px]' />
+    <img src={Page} className='h-[100px] md:h-[200px]' />
+  </div>;
 };
 export default Prize;
