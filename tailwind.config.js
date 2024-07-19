@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         harry: ["Harry"],
+        bluu: ["Bluu"],
       },
     },
   },
@@ -18,6 +19,15 @@ module.exports = {
           fontFamily: "Harry",
           fontWheight: "400",
           src: "url(./assets/harrypotter.TTF)",
+        },
+      });
+    }),
+    plugin(function ({ addBase }) {
+      addBase({
+        "@font-face": { 
+          fontFamily: "Bluu",
+          fontWheight: "700",
+          src: "url(./assets/Bluu.otf)",
         },
       });
     }),
