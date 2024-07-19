@@ -30,7 +30,7 @@ const Navbar = () => {
 		<div className="sticky top-0 z-50 flex items-center justify-between w-full m-2 sm:m-0">
 			<img src="cnlogopotter.png" alt="logo" className="w-16 m-1 sm:w-[5rem] sm:ml-8" />
 			<div className="flex items-center justify-center flex-grow sm:hidden">
-				<h1 className="text-3xl text-white font-harry">Campus Quest 3</h1>
+				<a href="#about"><h1 className="text-3xl text-white font-harry">Campus Quest 3</h1></a>
 			</div>
 			<div className="flex items-center sm:hidden">
 				<img
