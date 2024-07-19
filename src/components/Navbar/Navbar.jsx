@@ -5,17 +5,19 @@ const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const handleScroll = () => {
-		const sections = document.querySelectorAll(".section");
+		const sections = document.querySelectorAll("section");
 		let currentSection = "";
 		sections.forEach((section) => {
 			const sectionTop = section.offsetTop;
-			if (window.scrollY >= sectionTop -100) {
+			if (window.scrollY >= sectionTop - 100) {
 				currentSection = section.getAttribute("id");
 			}
 		});
+		if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 10) {
+			currentSection = "contact";
+		}
 		setActiveSection(currentSection);
 	};
-
 	useEffect(() => {
 		handleScroll()
 		window.addEventListener("scroll", handleScroll);
