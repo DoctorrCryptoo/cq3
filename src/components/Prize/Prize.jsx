@@ -6,7 +6,7 @@ const Prize = () => {
     <img src={prize} className='' />
     <div className='flex flex-col-reverse xl:grid-cols-5 xl:items-center xl:grid'>
       <img src={Cup} className='self-start xl:col-span-3 max-w-screen ' />
-    <img src={Page} className='self-center w-2/3 mb-48 xl:col-span-2' />
+    <img src={Page} className='self-center w-2/3 my-8 xl:mb-48 xl:col-span-2' />
     </div>
   </div>;
 };
