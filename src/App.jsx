@@ -15,20 +15,20 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Landing />
-      <div className="w-screen flex justify-end">
+      <Landing/>
+      <div className="flex justify-end w-screen">
         <img src={divRight} alt="" className="w-[75vw] md:w-[50vw]" />
       </div>
       <About />
-      <div className="w-screen flex justify-start">
+      <div className="flex justify-start w-screen">
         <img src={divLeft} alt="" className="w-[75vw] md:w-[50vw]" />
       </div>
-      <Timeline />
-      <div className="w-screen flex justify-end">
+      <Prize />
+      <div className="flex justify-end w-screen">
         <img src={divRight} alt="" className="w-[75vw] md:w-[50vw]" />
       </div>
-      <Prize />
-      <div className="w-screen flex justify-start">
+      <Timeline />
+      <div className="flex justify-start w-screen">
         <img src={divLeft} alt="" className="w-[75vw] md:w-[50vw]" />
       </div>
       <Sponsors />
