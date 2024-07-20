@@ -1,87 +1,30 @@
+import BG from '../../assets/Images/Footer BG.png';
+import Campus from '../../assets/Images/CampusQuest.png';
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { FaTwitterSquare } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
-import image from "./img/Group 48.png";
-import image2 from "./img/Group 46.png";
-import image3 from "./img/Group 47.png";
-import image5 from "./img/Register.png";
-import image6 from "./img/image 84.png";
+
 
 const Footer = () => {
   return (
-    <section id="footer" className="relative">
-      <div className="mainimg" id="mainimg">
-        <img src={image} alt="" />
+    <div className='h-screen'>
+      <img src={BG} className='bg-cover bottom-0 -z-50' />
+      <div className='flex justify-center items-center gap-5 xl:gap-20 font-harry text-yellow-200 text-xs md:text-4xl'>
+        <a href="#About" className='hover:underline' >About</a>
+        <a href="#Prize Pool" className='hover:underline' >Prize Pool</a>
+        <a href="#Timeline" className='hover:underline' >Timeline</a>
+        <a href="#Our Sponsors" className='hover:underline' >Our Sponsors</a>
       </div>
-      <nav className="absolute top-0 left-1/2 transform -translate-x-1/2 mt-4">
-        <ul className="flex space-x-10 text-white text-3xl">
-          <li>
-            <a
-              href="#about"
-              className="hover:underline cursor-pointer relative group"
-            >
-              About
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-gray-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#sponsor"
-              className="hover:underline cursor-pointer relative group"
-            >
-              Sponsors
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-gray-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#prizes"
-              className="hover:underline cursor-pointer relative group"
-            >
-              Prizes
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-gray-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#timeline"
-              className="hover:underline cursor-pointer relative group"
-            >
-              Timeline
-              <span className="absolute left-0 -bottom-1 w-full h-1 bg-gray-300 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <div className="social flex justify-end space-x-8 items-center">
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <PiInstagramLogoLight className="insta-icon w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8" />
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <BsDiscord className="discord w-3 h-3 sm:w-6 sm:h-6 lg:w-8 lg:h-8" />
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8" />
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-          <FaTwitterSquare className="w-4 h-4 sm:w-6 sm:h-6 lg:w-8 lg:h-8" />
-        </a>
+      <div className='z-10 flex items-center justify-center'>
+      <img src={Campus} className='w-1/3  mb-10 ' />
+      <a href="#LinkedIn"><FaLinkedin className='md:size-10' /></a>
+      <a href="#Twitter"><FaTwitterSquare className='md:size-10' /></a>
+      <a href="#Instagram"><PiInstagramLogoLight className='md:size-10' /></a>
+      <a href="#Discord"><BsDiscord className='md:size-10' /></a>
+      <a href="#Register" className='font-harry text-white text-xl sm:text-3xl lg:text-5xl'>Register</a>
       </div>
-      <div className="mainname" id="albus">
-        <img src={image3} alt="" />
-      </div>
-      <div className="hagrid" id="hagrid">
-        <img src={image6} alt="" />
-      </div>
-      <div className="albus" id="hagrid">
-        <img src={image2} alt="" />
-      </div>
-
-      <a href="#" className="register" id="register">
-        <img src={image5} alt="" />
-      </a>
-    </section>
+    </div>
   );
 };
 export default Footer;

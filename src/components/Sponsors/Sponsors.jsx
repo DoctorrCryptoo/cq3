@@ -1,4 +1,3 @@
-import Vector1 from "../../assets/Images/Vector1.png";
 import Sponsor from "../../assets/Images/Our Sponsers.png";
 import Red from "../../assets/Images/Red.png";
 import Yellow from "../../assets/Images/Yellow.png";

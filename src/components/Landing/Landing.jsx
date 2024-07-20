@@ -5,7 +5,7 @@ const Landing = () => {
   return <div className='h-screen'>
     <img src={BG} className='absolute bg-cover -z-50 top-0' />
     <div className='w-screen h-full flex items-center justify-center'>
-      <img src={Campus} className='' />
+      <img src={Campus} />
     </div>
     <a href='#register'>
       <div className='grid w-full grid-cols-1 justify-items-center mt-[-17rem] z-70'>
