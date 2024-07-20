@@ -6,6 +6,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'footer-img': "url('./assets/Images/Footer BG.png')",
+      },
       fontFamily: {
         harry: ["Harry"],
         bluu: ["Bluu"],
