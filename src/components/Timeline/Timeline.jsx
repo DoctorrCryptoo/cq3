@@ -1,9 +1,11 @@
 import Time from '../../assets/Images/Timeline.png';
-import Train from '../../assets/Images/Train-Timeline.png';
+import steps from '../../assets/Images/steps2.png';
+
 const Timeline = () => {
-  return <div className='p-10'>
+  return <div className=''>
       <img src={Time} className='float-right'/>
-      <img src={Train} className='timeline' />
+      <img src={steps} />
+
   </div>;
 };
 export default Timeline;
