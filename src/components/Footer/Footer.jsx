@@ -16,10 +16,10 @@ const Footer = () => {
         <a href="#Our Sponsors" className='hover:underline' >Our Sponsors</a>
       </div>
       <div className='flex items-end justify-end mt-5' >
-      <img src={Owl} className='absolute w-1/12 ' />
+      <img src={Owl} className='absolute w-1/12 ' loading="lazy"/>
       </div>
       <div className='flex items-center justify-center mt-10'>
-      <img src={Campus} className='w-1/3 place-items-center' />
+      <img src={Campus} className='w-1/3 place-items-center' loading="lazy"/>
       </div >
       <div className='z-10 flex items-center justify-center gap-5 mt-10 xl:gap-10 '>
           <a href="#LinkedIn"><FaLinkedin color='white' className='md:size-10' /></a>
