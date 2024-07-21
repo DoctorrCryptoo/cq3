@@ -27,7 +27,7 @@ const Navbar = () => {
 	}, []);
 
 	return (
-		<div className="sticky top-0 z-50 flex items-center justify-between w-full ">
+		<div className="sticky top-0 z-50 flex items-center justify-between w-screen">
 			<img src="cnlogopotter.png" alt="logo" className="w-16 m-1 sm:w-[5rem] sm:ml-8" />
 			<div className="flex items-center justify-center flex-grow sm:hidden">
 				<a href="#about"><h1 className="text-3xl text-white font-harry">Campus Quest 3</h1></a>
@@ -87,6 +87,12 @@ const Navbar = () => {
 					/>
 				</div>
 			</div>
+			<a
+				href="#"
+				className="hidden p-2 px-6 py-1 mr-8 text-xl text-[#A6F0FF] border border-white rounded-sm sm:block rounded-4 sm:text-3xl font-harry"
+			>
+				Join Now
+			</a>
 			{menuOpen && (
 				<div className="sm:hidden fixed top-0 left-0 w-full h-full bg-[#001214] opacity-95 flex flex-col justify-center items-center space-y-8 p-4 z-40">
 					<img
@@ -123,9 +129,16 @@ const Navbar = () => {
 					>
 						Contact Us
 					</a>
+					<a
+						href="#"
+						className="px-8 py-1 text-3xl text-white border border-white rounded-4 font-harry"
+						onClick={() => setMenuOpen(false)}
+					>
+						Join Now
+					</a>
 				</div>
 			)}
-			<div className="w-[6rem] hidden sm:block"></div>
+			{/* <div className="w-[6rem] hidden sm:block"></div> */}
 		</div>
 	);
 };
