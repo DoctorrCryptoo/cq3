@@ -1,4 +1,4 @@
-import Sponsor from "../../assets/Images/Our Sponsers.png";
+import Sponsor from "../../assets/Images/Our Sponsors.png";
 import Red from "../../assets/Images/Red.png";
 import Yellow from "../../assets/Images/Yellow.png";
 import Blue from "../../assets/Images/Blue.png";
@@ -7,7 +7,7 @@ const Sponsors = () => {
 	return (
 		<div>
 			<img src={Sponsor} className="" />
-			<div className="grid grid-cols-2 justify-items-center p-4 m-4 gap-4 sm:grid-cols-4">
+			<div className="grid grid-cols-2 gap-4 p-4 m-4 justify-items-center sm:grid-cols-4">
 				<div>
 					<img src={Red} className="" />
 					<p className="font-bluu text-[#C90909] text-3xl sm:text-4xl text-center">
