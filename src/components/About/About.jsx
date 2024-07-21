@@ -16,8 +16,8 @@ const About = () => {
         <div className="relative flex flex-col items-center justify-center mt-16">
         <div className="absolute inset-0 bg-[#0596B4] blur-[42.7px] rounded-md"></div>
           <a href="#Rules" className="relative">
-            <img src={Book} className="h-[80px] md:h-[160px]" alt="Books" />
-            <p className="ml-4 -my-4 text-4xl text-center text-white font-harry md:text-6xl md:-my-6">Rules</p>
+            <img src={Book} className="h-[100px] md:h-[160px]" alt="Books" />
+            <p className="ml-4 -my-4 text-3xl text-center text-white font-harry md:text-5xl md:-my-6">RULES</p>
           </a>
         </div>
       </div>
