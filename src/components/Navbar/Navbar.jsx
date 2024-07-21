@@ -131,7 +131,7 @@ const Navbar = () => {
 					</a>
 					<a
 						href="#"
-						className="px-8 py-1 text-3xl text-white border border-white rounded-4 font-harry"
+						className="px-8 py-1 text-3xl text-[#A6F0FF] border border-white rounded-4 font-harry"
 						onClick={() => setMenuOpen(false)}
 					>
 						Join Now

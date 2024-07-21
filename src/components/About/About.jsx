@@ -3,7 +3,7 @@ import Book from "../../assets/Images/Book.png";
 import train from "../../assets/Images/aboutTrain.png";
 const About = () => {
   return (
-    <div className="min-h-screen min-w-screen max-h-full flex flex-col-reverse md:flex-row items-center justify-center md:justify-between p-4 md:p-0">
+    <div className="flex flex-col-reverse items-center justify-center max-h-full min-h-screen p-4 min-w-screen md:flex-row md:justify-between md:p-0">
       <img src={train} className="w-[60vw] sm:w-[40vw] md:w-[30vw]" alt="" />
       <div className="flex flex-col items-center justify-center flex-1">
         <img src={Abouti} alt="About" />
@@ -13,9 +13,12 @@ const About = () => {
           students and make them explore the campus through the due course of
           the event.{" "}
         </p>
-        <div className="flex flex-col items-center justify-center pt-4">
-          <img src={Book} className="h-[80px] md:h-[160px]" alt="Books" />
-          <a href="#Rules" className="text-white font-harry text-6xl md:text-6xl -my-4 md:-my-8">Rules</a>
+        <div className="relative flex flex-col items-center justify-center mt-16">
+        <div className="absolute inset-0 bg-[#0596B4] blur-[42.7px] rounded-md"></div>
+          <a href="#Rules" className="relative">
+            <img src={Book} className="h-[80px] md:h-[160px]" alt="Books" />
+            <p className="ml-4 -my-4 text-4xl text-center text-white font-harry md:text-6xl md:-my-6">Rules</p>
+          </a>
         </div>
       </div>
     </div>
