@@ -8,8 +8,8 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className='w-screen bg-cover bg-footer-img'>
-      <div className='flex items-center justify-center gap-5 mt-32 text-xs text-yellow-200 xl:gap-20 font-harry md:text-4xl'>
+    <div className='w-screen mt-32 bg-cover bg-footer-img'>
+      <div className='flex items-center justify-around gap-5 py-8 text-lg text-yellow-200 sm:justify-center xl:gap-20 font-harry md:text-4xl'>
         <a href="#About" className='hover:underline' >About</a>
         <a href="#Prize Pool" className='hover:underline' >Prize Pool</a>
         <a href="#Timeline" className='hover:underline' >Timeline</a>
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className='flex items-center justify-center mt-10'>
       <img src={Campus} className='w-1/3 place-items-center' />
       </div >
-      <div className='z-10 flex items-center justify-center mt-10 gap-5 xl:gap-10 '>
+      <div className='z-10 flex items-center justify-center gap-5 mt-10 xl:gap-10 '>
           <a href="#LinkedIn"><FaLinkedin color='white' className='md:size-10' /></a>
           <a href="#Twitter"><FaTwitterSquare color='white' className='md:size-10' /></a>
           <a href="#Instagram"><PiInstagramLogoLight color='white' className='md:size-10' /></a>
