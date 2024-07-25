@@ -10,10 +10,10 @@ const Footer = () => {
   return (
     <div className='w-screen mt-32 bg-cover bg-footer-img'>
       <div className='flex items-center justify-around gap-5 py-8 text-lg text-yellow-200 sm:justify-center xl:gap-20 font-harry md:text-4xl'>
-        <a href="#About" className='hover:underline' >About</a>
-        <a href="#Prize Pool" className='hover:underline' >Prize Pool</a>
-        <a href="#Timeline" className='hover:underline' >Timeline</a>
-        <a href="#Our Sponsors" className='hover:underline' >Our Sponsors</a>
+        <a href="#About" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >About</a>
+        <a href="#Prize Pool" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Prize Pool</a>
+        <a href="#Timeline" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Timeline</a>
+        <a href="#Our Sponsors" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Our Sponsors</a>
       </div>
       <div className='flex items-end justify-end mt-5' >
       <img src={Owl} className='absolute w-1/12 ' loading="lazy"/>
