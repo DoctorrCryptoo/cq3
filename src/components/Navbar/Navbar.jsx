@@ -28,7 +28,7 @@ const Navbar = () => {
 
 	return (
 		<div className="sticky top-0 z-50 flex items-center justify-between w-screen">
-			<img src="cnlogopotter.png" alt="logo" className="w-16 m-1 sm:w-[5rem] sm:ml-8 sm:pt-2" />
+			<img src="cnlogopotter.png" alt="logo" className="w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2" />
 			<div className="flex items-center justify-center flex-grow sm:hidden">
 				<a href="#about"><h1 className="text-3xl text-white font-harry">Campus Quest 3</h1></a>
 			</div>
