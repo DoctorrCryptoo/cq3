@@ -38,8 +38,8 @@ body {
   left: 0;
   right: 0;
   bottom: -10px;
-  background: rgba(255, 255, 255, 0.2);
-  filter: blur(10px);
+  background: #0596B4;
+  filter: blur(18px);
   z-index: -1;
 }
 
