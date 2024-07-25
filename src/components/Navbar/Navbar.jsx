@@ -89,7 +89,7 @@ const Navbar = () => {
 			</div>
 			<a
 				href="#"
-				className="hidden p-2 px-6 py-1 mr-8 text-xl text-[#A6F0FF] border border-white rounded-sm sm:block rounded-4 sm:text-3xl font-harry"
+				className="hidden p-2 px-6 py-1 mr-8 text-xl text-[#A6F0FF] border border-white rounded-sm sm:block rounded-4 sm:text-3xl font-harry hover:bg-slate-200/15"
 			>
 				Join Now
 			</a>
@@ -131,7 +131,7 @@ const Navbar = () => {
 					</a>
 					<a
 						href="#"
-						className="px-8 py-1 text-3xl text-[#A6F0FF] border border-white rounded-4 font-harry"
+						className="px-8 py-1 text-3xl text-[#A6F0FF] border border-white rounded-4 font-harry bg-slate-200/15"
 						onClick={() => setMenuOpen(false)}
 					>
 						Join Now
