@@ -1,4 +1,4 @@
-import Campus from '../../assets/Images/CampusQuest.png';
+import Campus from '../../assets/Images/campusquestnomoon.png';
 import Owl from '../../assets/Images/Hogwarts 1.png';
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { FaTwitterSquare } from "react-icons/fa";
