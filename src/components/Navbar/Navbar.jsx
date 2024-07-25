@@ -40,7 +40,7 @@ const Navbar = () => {
 					onClick={() => setMenuOpen(!menuOpen)}
 				/>
 			</div>
-			<div className="hidden sm:flex bg-[#001214] opacity-55 justify-around rounded-2xl h-16 w-[500px] mx-auto place-items-center relative">
+			<div className="hidden sm:flex bg-[#001214]/[0.55] justify-around rounded-2xl h-16 w-[500px] mx-auto place-items-center relative">
 				<a
 					href="#about"
 					className={`text-xl sm:text-3xl text-white font-harry ${
