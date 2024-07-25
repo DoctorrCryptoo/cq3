@@ -22,13 +22,13 @@ const Footer = () => {
       <img src={Campus} className='w-1/3 place-items-center' loading="lazy"/>
       </div >
       <div className='z-10 flex items-center justify-center gap-5 mt-10 xl:gap-10 '>
-          <a href="#LinkedIn"><FaLinkedin color='white' className='md:size-10' /></a>
-          <a href="#Twitter"><FaTwitterSquare color='white' className='md:size-10' /></a>
-          <a href="#Instagram"><PiInstagramLogoLight color='white' className='md:size-10' /></a>
-          <a href="#Discord"><BsDiscord color='white' className='md:size-10' /></a>
+          <a href="#LinkedIn"><FaLinkedin color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a href="#Twitter"><FaTwitterSquare color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a href="#Instagram"><PiInstagramLogoLight color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a href="#Discord"><BsDiscord color='white' className='md:size-10 hover:contrast-50' /></a>
       </div>
       <div className='flex items-end justify-end p-4 md:p-10'>
-      <a href="#Register" className='text-xl text-white font-harry sm:text-3xl lg:text-5xl '>Register</a>
+      <a href="#Register" className='text-xl text-white font-harry sm:text-3xl lg:text-5xl hover:contrast-50'>Register</a>
       </div>
     </div>
   );
