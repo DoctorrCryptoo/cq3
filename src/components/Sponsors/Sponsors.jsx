@@ -6,7 +6,7 @@ import Green from "../../assets/Images/Green.png";
 const Sponsors = () => {
 	return (
 		<div>
-			<img src={Sponsor} className="" />
+			<img src={Sponsor} className="w-1/2 pt-5 md:pt-10 ml-5" />
 			<div className="grid grid-cols-2 gap-4 p-4 m-4 justify-items-center sm:grid-cols-4">
 				<div>
 					<img src={Red} className="" loading="lazy"/>

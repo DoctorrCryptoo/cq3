@@ -3,7 +3,7 @@ import steps from '../../assets/Images/steps2.png';
 
 const Timeline = () => {
   return <div className=''>
-      <img src={Time} className='float-right' loading="lazy"/>
+      <img src={Time} className='float-right w-1/2 pt-5 md:pt-10 mr-5' loading="lazy"/>
       <img src={steps} loading="lazy"/>
 
   </div>;
