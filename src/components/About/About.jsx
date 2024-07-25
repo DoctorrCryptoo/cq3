@@ -6,8 +6,8 @@ const About = () => {
     <div className="flex flex-col-reverse items-center justify-center max-h-full min-h-screen p-4 min-w-screen md:flex-row md:justify-between md:p-0">
       <img src={train} className="w-[60vw] sm:w-[40vw] md:w-[30vw]" alt="" loading="lazy" />
       <div className="flex flex-col items-center justify-center flex-1">
-        <img src={Abouti} alt="About" loading="lazy"/>
-        <p className="text-white font-sans text-center text-xl md:text-xl max-w-[75vw] md:max-w-[30vw]">
+        <img src={Abouti} alt="About" loading="lazy" className="h-20 sm:h-auto"/>
+        <p className="text-white font-sans text-center text-l md:text-xl max-w-[60vw] md:max-w-[30vw]">
           Campus Quest is a team game with a combination of Treasure Hunt and
           Capture The Flag. The game will essentially involve the first-year
           students and make them explore the campus through the due course of
