@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
 	const [activeSection, setActiveSection] = useState("");
@@ -33,10 +35,8 @@ const Navbar = () => {
 				<a href="#about"><h1 className="text-3xl text-white font-harry">Campus Quest 3</h1></a>
 			</div>
 			<div className="flex items-center sm:hidden">
-				<img
-					src="steps.png"
-					alt="menu"
-					className="w-12 mx-4 text-3xl text-white cursor-pointer"
+				<RxHamburgerMenu
+					className="w-10 mx-2 text-3xl text-white cursor-pointer"
 					onClick={() => setMenuOpen(!menuOpen)}
 				/>
 			</div>
@@ -95,10 +95,8 @@ const Navbar = () => {
 			</a>
 			{menuOpen && (
 				<div className="sm:hidden fixed top-0 left-0 w-full h-full bg-[#001214] opacity-95 flex flex-col justify-center items-center space-y-8 p-4 z-40">
-					<img
-						src="steps.png"
-						alt="Close menu"
-						className="absolute w-12 rotate-180 cursor-pointer top-4 right-4"
+					<IoClose
+						className="absolute w-12 h-6 text-white cursor-pointer top-7 right-2"
 						onClick={() => setMenuOpen(false)}
 					/>
 					<a
