@@ -2,7 +2,7 @@
 
 - [ ] adding sponsors
 - [ ] timeline on mobile
-- [ ] navbar shading on scroll
+- [x] navbar shading on scroll mobile
 - [ ] lorem ipsum string on landing
 - [ ] timeline spacing/orientation for cloud on desktop
 - [x] change hamburger icon from footsteps to 3 lines to make it more obvious

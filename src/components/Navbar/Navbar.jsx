@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 const Navbar = () => {
 	const [activeSection, setActiveSection] = useState("");
 	const [menuOpen, setMenuOpen] = useState(false);
+	const [scrolled, setScrolled] = useState(false);
 
 	const handleScroll = () => {
 		const sections = document.querySelectorAll("section");
@@ -19,9 +20,17 @@ const Navbar = () => {
 			currentSection = "contact";
 		}
 		setActiveSection(currentSection);
+
+		// Check if the page has been scrolled down a little bit
+		if (window.scrollY > 50) {
+			setScrolled(true);
+		} else {
+			setScrolled(false);
+		}
 	};
+
 	useEffect(() => {
-		handleScroll()
+		handleScroll();
 		window.addEventListener("scroll", handleScroll);
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
@@ -30,6 +39,8 @@ const Navbar = () => {
 
 	return (
 		<div className="sticky top-0 z-50 flex items-center justify-between w-screen">
+<div className={`sm:hidden -z-10 absolute inset-0 bg-gradient-to-b from-[#001113] via-[#001113]/90 to-transparent transition-opacity duration-500 ${scrolled ? 'opacity-100' : 'opacity-0'}`} />
+
 			<img src="cnlogopotter.png" alt="logo" className="w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2" />
 			<div className="flex items-center justify-center flex-grow sm:hidden">
 				<a href="#about"><h1 className="text-3xl text-white font-harry">Campus Quest 3</h1></a>
@@ -136,7 +147,6 @@ const Navbar = () => {
 					</a>
 				</div>
 			)}
-			{/* <div className="w-[6rem] hidden sm:block"></div> */}
 		</div>
 	);
 };
