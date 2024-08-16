@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'footer-img': "url('./assets/Images/Footer BG.png')",
+        'footer-img-desktop': "url('./assets/Images/Footer BG desktop.png')",
       },
       fontFamily: {
         harry: ["Harry"],
