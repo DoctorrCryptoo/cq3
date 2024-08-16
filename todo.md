@@ -8,3 +8,5 @@
 - [x] change hamburger icon from footsteps to 3 lines to make it more obvious
 - [ ] add rules popup (need content for it)
 - [ ] add link hrefs
+
+[]
