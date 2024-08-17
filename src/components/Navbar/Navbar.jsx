@@ -41,7 +41,7 @@ const Navbar = () => {
 	}, []);
 
 	return (
-<div className="sticky top-0 z-50 flex items-center justify-center w-screen h-24">
+<div className="sticky top-0 z-50 flex items-center justify-center w-screen h-20 md:h-24">
   <div
     className={`sm:hidden -z-10 absolute inset-0 bg-gradient-to-b from-[#001113] via-[#001113]/90 to-transparent transition-opacity duration-500 ${
       scrolled ? "opacity-100" : "opacity-0"
@@ -51,14 +51,14 @@ const Navbar = () => {
   <img
     src="cnlogopotter.png"
     alt="logo"
-    className="absolute left-3 w-16 pl-3 pt-2 sm:w-[5rem] sm:pt-2"//"w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2"
+    className="absolute top-1 left-3 w-14 pl-3 pt-4 sm:w-[5rem] sm:pt-2"//"w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2"
   />
   <div className="flex items-center justify-center flex-grow sm:hidden">
     <a href="#about">
       <h1 className="text-3xl text-white font-harry">Campus Quest 3</h1>
     </a>
   </div>
-  <div className="flex items-center sm:hidden">
+  <div className="absolute flex items-center right-2 sm:hidden">
     <RxHamburgerMenu
       className="w-10 mx-2 text-3xl text-white cursor-pointer"
       onClick={() => setMenuOpen(!menuOpen)}
