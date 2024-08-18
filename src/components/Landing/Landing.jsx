@@ -7,7 +7,7 @@ const Landing = () => {
     <img src={BG} className='absolute top-0 bg-cover -z-50' loading="lazy" />
     <div className='flex flex-col items-center justify-center w-screen h-full'>
       <img src={Campus} loading="lazy" className='lg:w-2/3'/>
-      <p className='mx-2 font-sans text-xl tracking-wider text-center text-white sm:text-4xl'>When Quidditch meets coding you get Campus quest 3.0!!
+      <p className='mx-2 font-sans tracking-wider text-center text-white text-md sm:text-3xl'>When Quidditch meets coding you get Campus quest 3.0!!
       prepare yourself wizards</p>
     <a href='#register'>
       {/* <div className='grid w-full grid-cols-1 justify-items-center mt-[-17rem] z-70'>
