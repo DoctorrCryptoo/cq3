@@ -48,11 +48,13 @@ const Navbar = () => {
     }`}
   />
 
-  <img
-    src="cnlogopotter.png"
-    alt="logo"
-    className="absolute top-1 left-3 w-14 pl-3 pt-4 sm:w-[5rem] sm:pt-2"//"w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2"
-  />
+  <a href="https://cnsrm.vercel.app" target="_blank">
+    <img
+      src="cnlogopotter.png"
+      alt="logo"
+      className="absolute top-1 left-3 w-14 pl-3 pt-4 sm:w-[5rem] sm:pt-2"//"w-16 m-1 pl-3 pt-2 sm:w-[5rem] sm:ml-8 sm:pt-2"
+    />
+  </a>
   <div className="flex items-center justify-center flex-grow sm:hidden">
     <a href="#about">
       <h1 className="text-3xl text-white font-harry">Campus Quest 3</h1>
@@ -147,7 +149,7 @@ const Navbar = () => {
         Contact Us
       </a>
       <a
-        href="#"
+        href="https://cnsrm.vercel.app/cq-registration" target="_blank"
         className="px-8 py-1 text-3xl text-[#A6F0FF] border border-white rounded-4 font-harry bg-slate-200/15"
         onClick={() => setMenuOpen(false)}
       >
