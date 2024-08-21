@@ -12,10 +12,10 @@ const Footer = () => {
       <div className='hidden md:flex md:justify-between md:items-center md:p-8'>
       </div>
       <div className='flex items-center justify-center gap-5 py-3 text-lg text-yellow-200 sm:justify-center xl:gap-20 font-harry md:text-4xl'>
-        <a href="#About" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >About</a>
-        <a href="#Prize Pool" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Prize Pool</a>
-        <a href="#Timeline" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Timeline</a>
-        <a href="#Our Sponsors" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Our Sponsors</a>
+        <a href="#about" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >About</a>
+        <a href="#prize" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Prize Pool</a>
+        <a href="#timeline" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Timeline</a>
+        <a href="#sponsors" className='relative after:bg-yellow-200 after:absolute after:h-[0.2rem] after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-200' >Our Sponsors</a>
       </div>
       <div className='hidden mt-1 md:flex md:items-end md:justify-end' >
       <img src={Owl} className='absolute w-1/12 ' loading="lazy"/>

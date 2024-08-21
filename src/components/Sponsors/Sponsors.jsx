@@ -5,7 +5,7 @@ import Blue from "../../assets/Images/Blue.png";
 import Green from "../../assets/Images/Green.png";
 const Sponsors = () => {
 	return (
-		<div>
+		<div id="sponsors">
 			<img src={Sponsor} className="w-4/5 pt-5 ml-5 md:w-1/2 md:pt-10" />
 			<div className="grid grid-cols-2 gap-4 p-4 m-4 place-items-center place-content-center sm:grid-cols-4">
 				<div>
