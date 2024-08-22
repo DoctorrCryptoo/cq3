@@ -10,7 +10,7 @@ const Sponsors = () => {
 			<div className="grid grid-cols-2 gap-4 p-4 m-4 place-items-center place-content-center sm:grid-cols-4">
 				<div>
 					<img src={Red} className="h-[25dvh] lg:h-[70dvh]" loading="lazy"/>
-					<p className="font-bluu text-[#C90909] text-xl sm:text-4xl text-center">
+					<p className="font-bluu text-[#C90909] text-xl sm:text-4xl text-center text-nowrap">
 						And that's Anime
 					</p>
 				</div>
