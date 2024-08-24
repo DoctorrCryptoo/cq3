@@ -24,11 +24,11 @@ const Footer = () => {
       <img src={Campus} className='w-2/3 md:w-1/3 place-items-center' loading="lazy"/>
       </div >
       <div className='z-10 flex items-center justify-center gap-5 pb-10 mt-10 xl:gap-10'>
-          <a href="https://cnsrm.vercel.app/" target='_blank' ><AiOutlineGlobal color='white' className='md:size-10 hover:contrast-50' /></a>
-          <a href="https://www.linkedin.com/company/coding-ninjas-club-srm/" target='_blank' ><FaLinkedin color='white' className='md:size-10 hover:contrast-50' /></a>
-          <a href="https://medium.com/@cnsrm" target='_blank'><FaMediumM color='white' className='md:size-10 hover:contrast-50' /></a>
-          <a href="https://www.instagram.com/srm_cn?igsh=MTU2a3FzcHAzdmN1" target='_blank'><PiInstagramLogoLight color='white' className='md:size-10 hover:contrast-50' /></a>
-          <a href="https://discord.com/invite/w9VE7J3W" target='_blank'><BsDiscord color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a target="_blank" href="https://cnsrm.vercel.app/"><AiOutlineGlobal color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a target="_blank" href="https://www.linkedin.com/company/coding-ninjas-club-srm/"><FaLinkedin color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a target="_blank" href="https://medium.com/@cnsrm"><FaMediumM color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a target="_blank" href="https://www.instagram.com/srm_cn?igsh=MTU2a3FzcHAzdmN1"><PiInstagramLogoLight color='white' className='md:size-10 hover:contrast-50' /></a>
+          <a target="_blank" href="https://discord.com/invite/w9VE7J3W"><BsDiscord color='white' className='md:size-10 hover:contrast-50' /></a>
       </div>
      {/*<div className='flex items-end justify-end p-4 md:p-10'>
       <a href="#Register" className='text-xl text-white font-harry sm:text-3xl lg:text-5xl hover:contrast-50'>Register</a>
