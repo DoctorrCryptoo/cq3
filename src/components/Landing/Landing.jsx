@@ -1,6 +1,26 @@
+import React, { useEffect } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import BG from '../../assets/Images/Landingbg.png';
 import Campus from '../../assets/Images/CampusQuest.png';
 import register from '../../assets/Images/register button landing.png';
+
+const showInstagramToast = () => {
+  toast(
+    <div>
+      <a 
+        href="https://www.instagram.com/srm_cn?igsh=MTU2a3FzcHAzdmN1"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-500 underline"
+      >
+      Follow us on instagram!!
+      </a>
+    </div>,
+    { position: 'top-center', autoClose: 5000 }
+  );
+};
+
 
 const Landing = () => {
   return <div className='h-screen'>
@@ -17,6 +37,10 @@ const Landing = () => {
       </div> */}
       <img src={register} alt="" className='w-[300px] mt-8 mb-20 sm:w-[400px] hover:contrast-200 transition-all' loading="lazy"/>
 </a>
+<button onClick={showInstagramToast} className="btn btn-primary text-3xl text-white font-sans">
+Follow our insta page for further updates @srm_cn!
+      </button>
+      <ToastContainer />
     </div>
     </div>;
 };
