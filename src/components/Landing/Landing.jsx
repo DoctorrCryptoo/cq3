@@ -63,7 +63,7 @@ const Landing = () => {
 					</a>
 				</div>
 				<ToastContainer
-					position= {window.screen.width > 480 ?  "top-right" : "bottom-right"}
+					position= {window.innerWidth > 480 ?  "top-right" : "bottom-right"}
 					autoClose={5000}
 					newestOnTop={false}
 					closeOnClick={false}
