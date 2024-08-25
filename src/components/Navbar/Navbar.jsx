@@ -153,7 +153,7 @@ const Navbar = () => {
         className="px-8 py-1 text-3xl text-[#A6F0FF] border border-white rounded-4 font-harry bg-slate-200/15"
         onClick={() => setMenuOpen(false)}
       >
-        Join Now
+        Register Now
       </a>
     </div>
   )}
