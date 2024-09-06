@@ -1,15 +1,16 @@
-import React, { useEffect } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { PiInstagramLogoLight } from "react-icons/pi";
-import BG from '../../assets/Images/Landingbg.png';
-import Campus from '../../assets/Images/CampusQuest.png';
-import register from '../../assets/Images/register button landing.png';
+import BG from "../../assets/Images/Landingbg.png";
+import Campus from "../../assets/Images/CampusQuest.png";
+import register from "../../assets/Images/register button landing.png";
+import join from "../../assets/Images/join us.png";
 
 const Landing = () => {
-  useEffect(() => {
-    showInstagramToast();
-  }, []);
+	useEffect(() => {
+		showInstagramToast();
+	}, []);
 
 const showInstagramToast = () => {
   toast(
