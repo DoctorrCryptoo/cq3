@@ -8,25 +8,25 @@ import {
 	Timeline,
 } from "./components/index.js";
 
-import divRight from "./assets/Images/Vector1.png";
-import divLeft from "./assets/Images/Vector2.png";
+{/*import divRight from "./assets/Images/Vector1.png";
+import divLeft from "./assets/Images/Vector2.png";*/}
 
 const App = () => {
 	return (
 		<div>
-			<Navbar />
+			{/*<Navbar />*/}
 			<section id="about">
 				<Landing />
-				<div className="flex justify-end w-screen">
+				{/*<div className="flex justify-end w-screen">
 					<img
 						src={divRight}
 						alt=""
 						className="w-[75vw] md:w-[50vw]"
 					/>
 				</div>
-				<About />
+				<About />*/}
 			</section>
-			<section id="prize">
+			{/*<section id="prize">
 				<div className="flex justify-start w-screen">
 					<img
 						src={divLeft}
@@ -56,7 +56,7 @@ const App = () => {
 			</section>
 			<section id="contact">
 				<Footer />
-			</section>
+			</section>*/}
 		</div>
 	);
 };
